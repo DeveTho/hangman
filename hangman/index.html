@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Galgje</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css?v=0">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css?v=0">
+
+    <link href="css/main.css?v=0" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-horizontal">
+                            <div class="form-group">
+                                <label class="sr-only" for="guessedWord">Jouw woord</label>
+                                <input type="text" id="guessedWord" class="form-control text-center" readonly="readonly" />
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label col-sm-6" for="letter">Uw keuze:</label>
+                                <div class="col-sm-4">
+                                    <input type="text" id="chosenLetter" class="form-control text-center" readonly="readonly" />
+                                    <div id="icon-container"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="letter-container">
+                            <a href="#a" class="btn btn-link text-center letter" role="button">A</a>
+                            <a href="#b" class="btn btn-link text-center letter" role="button">B</a>
+                            <a href="#c" class="btn btn-link text-center letter" role="button">C</a>
+                            <a href="#d" class="btn btn-link text-center letter" role="button">D</a>
+                            <a href="#e" class="btn btn-link text-center letter" role="button">E</a>
+                            <a href="#f" class="btn btn-link text-center letter" role="button">F</a>
+                            <a href="#g" class="btn btn-link text-center letter" role="button">G</a>
+                            <a href="#h" class="btn btn-link text-center letter" role="button">H</a>
+                            <a href="#i" class="btn btn-link text-center letter" role="button">I</a>
+                            <a href="#j" class="btn btn-link text-center letter" role="button">J</a>
+                            <a href="#k" class="btn btn-link text-center letter" role="button">K</a>
+                            <a href="#l" class="btn btn-link text-center letter" role="button">L</a>
+                            <a href="#m" class="btn btn-link text-center letter" role="button">M</a>
+                            <a href="#n" class="btn btn-link text-center letter" role="button">N</a>
+                            <a href="#o" class="btn btn-link text-center letter" role="button">O</a>
+                            <a href="#p" class="btn btn-link text-center letter" role="button">P</a>
+                            <a href="#q" class="btn btn-link text-center letter" role="button">Q</a>
+                            <a href="#r" class="btn btn-link text-center letter" role="button">R</a>
+                            <a href="#s" class="btn btn-link text-center letter" role="button">S</a>
+                            <a href="#t" class="btn btn-link text-center letter" role="button">T</a>
+                            <a href="#u" class="btn btn-link text-center letter" role="button">U</a>
+                            <a href="#v" class="btn btn-link text-center letter" role="button">V</a>
+                            <a href="#w" class="btn btn-link text-center letter" role="button">W</a>
+                            <a href="#x" class="btn btn-link text-center letter" role="button">X</a>
+                            <a href="#y" class="btn btn-link text-center letter" role="button">Y</a>
+                            <a href="#z" class="btn btn-link text-center letter" role="button">Z</a>
+                        </div>
+                        <div id="message" class="hidden">
+                            <p></p>
+                            <p>
+                                <button type="button" id="button-replay" class="btn btn-primary">Nog een keer?</button>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-sm-offset-1">
+                        <img id="gallow" src="img/0.jpg" alt="Galg" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery/jquery-2.1.1.min.js?v=0"></script>
+    <script src="js/bootstrap/bootstrap.min.js?v=0"></script>
+
+    <script src="js/main.js?v=0"></script>
+</body>
+</html>

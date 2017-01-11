@@ -1,0 +1,13 @@
+﻿body {
+    margin: 50px 0;
+}
+
+.letter {
+    padding: 3px 6px;
+    min-width: 27px;
+    min-height: 29px;
+}
+
+#letter-container {
+    margin-bottom: 10px;
+}
