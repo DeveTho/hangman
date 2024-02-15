@@ -2,7 +2,7 @@
     var word = GetWord();
     InitializeGuessedWord(word);
     ValidateLetter(word);
-    AsignReplayButton();
+    AssignReplayButton();
 });
 
 // Initializes the guessed words and puts the value in the input field
@@ -101,7 +101,7 @@ function ValidateLetter(word) {
 }
 
 // Reload the page (while forcing a get and clearing the cache) when clicking the 'replay'-button
-function AsignReplayButton() {
+function AssignReplayButton() {
     $('#button-replay').click(function () {
         window.location.reload(true);
     });
