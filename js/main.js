@@ -77,7 +77,7 @@ function ValidateLetter(word) {
                 $('.letter').addClass('disabled');
 
                 $('#message').removeClass('hidden');
-                $('#message > p:first-child').addClass('text-success').text('Proficiat! U heeft het woord kunnen raden.');
+                $('#message > p:first-child').addClass('text-success').text('Proficiat! Je hebt het woord kunnen raden.');
             }
         } else {
             $('#icon-container').addClass('glyphicon glyphicon-remove form-control-feedback');
@@ -92,7 +92,7 @@ function ValidateLetter(word) {
                 $('#guessedWord').val(AddSpacesToWord(word));
 
                 $('#message').removeClass('hidden');
-                $('#message > p:first-child').addClass('text-danger').text('Jammer, maar u heeft het woord niet kunnen raden.');
+                $('#message > p:first-child').addClass('text-danger').text('Jammer, maar je hebt het woord niet kunnen raden.');
             }
         }
         
